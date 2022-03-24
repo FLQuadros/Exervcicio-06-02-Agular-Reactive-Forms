@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>Dados Enviados</h1>
+<div mat-dialog-content>
+    <p>Nome: {{ name }}</p>
+    <p>Sobrenome: {{ lastName }}</p>
+    <p>Username: {{ userName }}</p>
+    <p>CPF: {{ cpf }}</p>
+    <p>Endereço: {{ endereco }}</p>
+    <p>Complemento: {{ complemento }}</p>
+    <p>Telefone Celular: {{ telCellphone }}</p>
+    <p>Telefone Residencial: {{ telResidence }}</p>
+    <p>Senha: {{ password }}</p>
+    <p>Confirmação de Senha: {{ confirmPassword }}</p>
+
+    <button mat-raised-button color="primary" (click)="sair()">Ok</button>
+</div>
